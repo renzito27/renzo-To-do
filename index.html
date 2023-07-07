@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>To-Do List Application</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Renziz To-Do List</h1>
+        <div class="input-container">
+            <input type="text" class="form-control" id="taskInput" onkeydown="addTask(event)">
+
+            <button id="addButton" onclick="addTask(event)">Add</button>
+        </div>
+        <ul id="taskList"></ul>
+    </div>
+</body>
+</html>
